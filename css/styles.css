@@ -122,10 +122,21 @@ nav ul li a:hover:after {
   background-position: center;
   display: flex;
   justify-content: center; }
+  .trip1:hover a, .trip2:hover a, .trip3:hover a, .trip4:hover a, .trip5:hover a, .trip6:hover a {
+    transform: scale(1.4);
+    transition: all 1s ease-in-out; }
+  .trip1 a, .trip2 a, .trip3 a, .trip4 a, .trip5 a, .trip6 a {
+    align-self: center;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    background-color: #666;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center; }
   .trip1 img, .trip2 img, .trip3 img, .trip4 img, .trip5 img, .trip6 img {
     align-self: center;
-    background-color: #666;
-    border-radius: 100%;
-    opacity: 0.5; }
+    height: 40px;
+    width: 40px; }
 
 /*# sourceMappingURL=styles.css.map */
